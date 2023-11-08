@@ -1,0 +1,21 @@
+<UXML xmlns="UnityEngine.UIElements"
+  xmlns:interactUI="InteractEditor.UI.Components">
+  <VisualElement class="mainContainer">
+
+    <interactUI:HelpButton href="https://light-and-shadows.com/documentation/interact/merge_parts/#merge-parts"/>
+
+    <TextField label="Selected Object(s)" name="selectedGameObjectField" class="formField"/>
+
+    <VisualElement style="flex-direction: row; margin-left: 3; margin-right: 3">
+      <Label text="Merge Options" style="width: 50%;"/>
+      <VisualElement style="flex-direction: row; width: 50%; justify-content: space-around;">
+        <Toggle name="mergeByColorToggle" class="formField" text="Merge by Color" style="width: 50%;"/>
+        <Toggle name="mergeByNameToggle" class="formField" text="Merge by Name" style="width: 50%;"/>
+      </VisualElement>
+    </VisualElement>
+
+    <TextField label="Merge Pattern" name="mergePatternField" class="formField" style="width: 100%"/>
+  </VisualElement>
+
+  <interactUI:ButtonsFooter focus="0" buttonsCount="2" buttonName0="Merge" buttonName1="Cancel"/>
+</UXML>

@@ -1,0 +1,9 @@
+﻿<UXML xmlns="UnityEngine.UIElements"
+      xmlns:uie="UnityEditor.UIElements">
+    <Label name="label" />
+    <VisualElement style="flex-direction: row;">
+        <uie:IntegerField name="minValue" value="0" style="min-width: 30px"/>
+        <MinMaxSlider name="slider" low-limit="0" high-limit="100" min-value="0" max-value="100" style="flex-grow:1;"/>
+        <uie:IntegerField name="maxValue" value="100" style="min-width: 30px"/>
+    </VisualElement>
+</UXML>

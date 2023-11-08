@@ -1,0 +1,9 @@
+<UXML xmlns="UnityEngine.UIElements"
+    xmlns:uie="UnityEditor.UIElements"
+    xmlns:interactUI="InteractEditor.UI.Components">
+    <VisualElement class="mainContainer">
+        <uie:ObjectField label="Target Joint" name="jointField" />
+        <uie:FloatField label="Spring Stiffness" name="stiffnessField" />
+    </VisualElement>
+    <interactUI:ButtonsFooter focus="0" buttonsCount="2" buttonName0="Add" buttonName1="Cancel"/>
+</UXML>

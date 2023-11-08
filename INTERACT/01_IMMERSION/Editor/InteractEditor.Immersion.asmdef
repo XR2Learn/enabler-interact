@@ -1,0 +1,20 @@
+{
+    "name": "InteractEditor.Immersion",
+    "rootNamespace": "",
+    "references": [
+        "GUID:203bea61bebdb024c930439f91d893dd",
+        "GUID:ad5e31881d1183445beddef09e42164e",
+        "GUID:c56de0a8a7ba7f74d9d03491b4b754ca"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

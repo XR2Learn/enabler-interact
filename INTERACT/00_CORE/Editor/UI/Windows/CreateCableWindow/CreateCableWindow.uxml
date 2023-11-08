@@ -1,0 +1,42 @@
+<UXML xmlns="UnityEngine.UIElements"
+    xmlns:uie="UnityEditor.UIElements"
+    xmlns:interactUI="InteractEditor.UI.Components">
+    <VisualElement class="mainContainer">
+        <interactUI:HelpButton href="https://light-and-shadows.com/documentation/interact/cables/"/>
+
+        <uie:EnumField label="Generation Mode" name="genMode" style="margin-bottom: 12px;"/>
+
+        <!-- Option 1: From a CAD model -->
+        <VisualElement name="cableModel" style="margin-bottom: 20px;">
+            <Label text="Model" class="bold" />
+            <TextField label="Selected Object(s)" name="Selected Object(s)" class="formField"/>
+        </VisualElement>
+
+        <!-- Option 2: From generated attach points -->
+        <VisualElement name="attachPoints" style="margin-bottom: 20px;">
+            <Label text="Attach Points" class="bold"/>
+
+            <uie:ObjectField label="Start GameObject" name="startGameObjectField"/>
+
+            <uie:ObjectField label="End GameObject" name="endGameObjectField" />
+
+            <Label text="Properties" class="bold"/>
+            <uie:ColorField label="Cable Color" />
+            <uie:IntegerField label="Number of nodes" name="nodesNbField" value="30"/>
+            <uie:DoubleField label="Radius (m)" name="radiusField" value="0.01"/>
+        </VisualElement>
+
+        <VisualElement>
+            <Label text="Cable" class="bold" />
+            <uie:ObjectField label="Collision Rule" name="collisionRule"/>
+            <uie:ObjectField label="Contact Material" name="contactMaterial" />
+            <uie:EnumField label="Material" name="materialEnum" />
+            <uie:DoubleField label="Density (kg/m^3)" name="densityField" value="1140"/>
+            <uie:DoubleField label="Young Module (GPa)" name="youngModuleField" value="0,05"/>
+            <uie:DoubleField label="Poisson Ratio" name="poissonRatioField" value="0,4999"/>
+            <Toggle label="Preformed Cable" name="preformedCable" value="false"/>
+        </VisualElement>
+
+    </VisualElement>
+    <interactUI:ButtonsFooter buttonsCount="2" buttonName0="Create" buttonName1="Cancel"/>
+</UXML>

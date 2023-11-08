@@ -1,0 +1,21 @@
+{
+    "name": "InteractEditor.Ergonomics",
+    "rootNamespace": "",
+    "references": [
+        "GUID:c56de0a8a7ba7f74d9d03491b4b754ca",
+        "GUID:bcee9c2c4459d0c409b4103c3c74ebed",
+        "GUID:41bac20576a562e48a82c499cee096ca",
+        "GUID:203bea61bebdb024c930439f91d893dd"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

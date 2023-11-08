@@ -1,0 +1,16 @@
+{
+    "name": "Interact.PointCloud",
+    "rootNamespace": "",
+    "references": [
+        "GUID:203bea61bebdb024c930439f91d893dd"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

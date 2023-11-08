@@ -1,0 +1,5 @@
+.manipulator-img {
+    width: 200px;
+    height: 200px;
+    -unity-background-scale-mode: scale-to-fit;
+}

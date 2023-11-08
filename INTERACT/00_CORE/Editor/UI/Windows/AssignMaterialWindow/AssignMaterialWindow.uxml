@@ -1,0 +1,9 @@
+<UXML xmlns="UnityEngine.UIElements"
+    xmlns:uie="UnityEditor.UIElements"
+    xmlns:interactUI="InteractEditor.UI.Components">
+    <VisualElement class="mainContainer">
+        <TextField label="Selected Object(s)" name="Selected Object(s)" class="formField"/>
+        <uie:ObjectField label="Material to apply" class="formField" name="materialField"/>
+    </VisualElement>
+    <interactUI:ButtonsFooter focus="0" buttonsCount="2" buttonName0="Assign" buttonName1="Cancel"/>
+</UXML>

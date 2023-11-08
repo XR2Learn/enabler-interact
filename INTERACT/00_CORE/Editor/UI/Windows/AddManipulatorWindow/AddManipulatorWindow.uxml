@@ -1,0 +1,16 @@
+<UXML xmlns="UnityEngine.UIElements"
+      xmlns:uie="UnityEditor.UIElements"
+      xmlns:interactUI="InteractEditor.UI.Components">
+    <VisualElement class="mainContainer">
+        <interactUI:HelpButton href="https://light-and-shadows.com/documentation/interact/manipulators/"/>
+        <uie:EnumField label="Device Type" name="deviceType" class="formField"/>
+        <uie:ObjectField label="Tracked GameObject" name="trackedGo" class="formField"/>
+        <uie:IntegerField label="Device ID" name="deviceId" placeholder="Enter a device ID"/>
+    </VisualElement>
+
+    <VisualElement style="width: 100%; justify-content: center; align-items: center;">
+        <Image name="manipulatorImg" class="manipulator-img"/>
+    </VisualElement>
+
+    <interactUI:ButtonsFooter focus="0" buttonsCount="2" buttonName0="Add" buttonName1="Cancel"/>
+</UXML>

@@ -1,0 +1,20 @@
+<UXML xmlns="UnityEngine.UIElements"
+      xmlns:uie="UnityEditor.UIElements"
+      xmlns:interactUI="InteractEditor.UI.Components">
+  <VisualElement class="mainContainer">
+    <interactUI:HelpButton href="https://light-and-shadows.com/documentation/interact/kinematics/" />
+
+    <TextField label="Selected Object(s)" name="Selected Object(s)" class="formField"/>
+    <VisualElement label="LOD Level" name="LODFieldContainer" />
+    <VisualElement label="Joint Type" name="jointTypeFieldContainer" />
+    <VisualElement label="Collision Group" name="collisionGroup"/>
+    <VisualElement label="Contact Material" name="contactMaterial"/>
+    <TextElement multiline="true" label="Warning Message" name="warningText" class="warning centeredText" style="align-self: center;"/>
+
+    <VisualElement class="formFieldWrapper" style="justify-content: center;">
+      <Image name="jointTypeImg" class="jointImg"/>
+    </VisualElement>
+
+  </VisualElement>
+  <interactUI:ButtonsFooter focus="0" buttonsCount="2" buttonName0="Physicalize" buttonName1="Cancel"/>
+</UXML>

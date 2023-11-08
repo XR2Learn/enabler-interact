@@ -1,0 +1,24 @@
+{
+    "name": "Interact.PiXYZ",
+    "rootNamespace": "",
+    "references": [
+        "LSAddon",
+        "Unity.Pixyz.Plugin4Unity",
+        "Unity.Pixyz.Plugin4Unity.Editor",
+        "Unity.Pixyz.Commons",
+        "Unity.Pixyz.Commons.Editor",
+        "Pixyz.PluginUnityEditor.Editor",
+        "PixyzPluginEditor.Runtime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

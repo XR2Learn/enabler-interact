@@ -1,0 +1,55 @@
+.mainContainer {
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+Button, TextInput {
+	border-left-width: 0;
+	border-top-width: 0;
+	border-right-width: 0;
+	border-bottom-width: 0;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.centeredText {
+    flex-wrap: wrap;
+    width: 410px;
+    margin-bottom: 10px;
+    -unity-text-align: middle-center;
+}
+
+VisualElement.separator {
+	width: 500px;
+	height: 30px;
+}
+
+.mainContainer {
+	padding-top: 10px;
+}
+
+.jointImg {
+	width: 220px;
+	height: 220px;
+}
+
+.formFieldWrapper {
+    flex-direction: row;
+	margin-left: 3px;
+	margin-right: 3px;
+	margin-top: 2px;
+}
+
+.formFieldWrapper > * {
+	width: 50%;
+}
+
+.bold {
+	-unity-font-style: bold;
+}
+
+.warning {
+	color: #ff9b41;
+}
