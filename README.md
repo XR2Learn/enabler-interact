@@ -4,7 +4,7 @@
 
 Enabler 1 is a Unity plugin for industrials who want to create human-centric simulations in virtual reality.
 
-# Some Use Cases
+## Some Use Cases
 REVIEW : Review CAD and point cloud in virtual reality. Visualize your digital twin at 1:1 scale using virtual reality. Navigate, measure and spot design issues earlier. 
 SIMULATE : Reproduce the physical behavior of your processes interactively. Ensure parts fitting, cables routing, and tool accessibility.
 INTERACT : Manipulate, touch, and try your product before building it. Experiment and validate product usage. 
@@ -12,8 +12,10 @@ PUBLISH : Share your simulation and deploy your executable. Train your users on 
 
 [Check INTERACT website here !](https://www.ls-group.fr/interact)
 
-## Dependencies
+## Dependencies / requirements
 
+This enabler requires Unity 2021.3.31f1 LTS (with Pro license), and Microsoft Windows 10+.
+You'll also prefer to run INTERACT on a powerful "VR-Ready" computer to get a better experience.
 
 ## Installation
 
