@@ -12,8 +12,6 @@ PUBLISH : Share your simulation and deploy your executable. Train your users on 
 
 [Check INTERACT website here !](https://www.ls-group.fr/interact)
 
-[![Watch demo video](https://img.youtube.com/vi/f09_8rrUqxo/maxresdefault.jpg)](https://youtu.be/f09_8rrUqxo)
-
 ## Dependencies
 
 
