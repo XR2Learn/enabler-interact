@@ -1,8 +1,8 @@
 ![XR2Learn](https://github.com/XR2Learn/.github/blob/main/images/XR2Learn%20logo.png)
 
-## Enabler 1 : "INTERACT"
+## Enabler "INTERACT"
 
-Enabler 1 is a Unity plugin for industrials who want to create human-centric simulations in virtual reality.
+The Enabler "INTERACT" is a Unity plugin for industrials who want to create human-centric simulations in virtual reality.
 
 ## Some Use Cases
 REVIEW : Review CAD and point cloud in virtual reality. Visualize your digital twin at 1:1 scale using virtual reality. Navigate, measure and spot design issues earlier. 
