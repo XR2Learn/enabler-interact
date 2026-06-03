@@ -30,4 +30,4 @@ Check out [INTERACT documentation website](https://light-and-shadows.com/documen
 
 ## Licence 
 
-Please see the LICENSE file for more details.
+Please see the [LICENSE](INTERACT/00_CORE/Editor/Assembly/xNode/LICENSE.md) file for more details.
